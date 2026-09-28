@@ -287,7 +287,7 @@ with additional_tab:
 
             st.latex(r"z = \frac{s+1}{s-1}")
             st.latex(r"Q_3(s) = (s-1)^2 P_3\left(\frac{s+1}{s-1}\right)")
-            st.latex(rf"P_3\left(\frac{s+1}{s-1}\right) = {sp.latex(P3_sub)}")
+            st.latex(rf"P_3\left(\frac{{s+1}}{{s-1}}\right) = {sp.latex(P3_sub)}")
             st.latex(rf"Q_3(s) = {sp.latex(Q3)}")
             st.latex(r"Q_3(s) = (b-2)s^2 + (2-2b)s + (b+4)")
             st.latex(r"\text{Condición de Routh-Hurwitz: } a_2>0,\ a_1>0,\ a_0>0")
@@ -311,7 +311,7 @@ with additional_tab:
             cond_K = sp.reduce_inequalities([Q4_a2 > 0, Q4_a1 > 0, Q4_a0 > 0], K)
 
             st.latex(r"Q_4(s) = (s-1)^2 P_4\left(\frac{s+1}{s-1}\right)")
-            st.latex(rf"P_4\left(\frac{s+1}{s-1}\right) = {sp.latex(P4_sub)}")
+            st.latex(rf"P_4\left(\frac{{s+1}}{{s-1}}\right) = {sp.latex(P4_sub)}")
             st.latex(rf"Q_4(s) = {sp.latex(Q4)}")
             st.latex(r"Q_4(s) = \left(2K + \frac{4}{5}\right)s^2 + (2 - 2K)s + \frac{6}{5}")
             st.latex(r"\text{Condición de Routh-Hurwitz: } a_2>0,\ a_1>0,\ a_0>0")
